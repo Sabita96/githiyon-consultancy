@@ -1,200 +1,14 @@
 <div class="super_container">
-  <!-- Header -->
+  <app-navbar></app-navbar>
+  <app-banner></app-banner>
+  <app-courses></app-courses>
+  <app-testimonial></app-testimonial>
+  <app-footer></app-footer>
+</div>
 
-  <header class="header trans_300">
-    <!-- Top Navigation -->
+<!-- //use inside super_container -->
 
-    <div class="top_nav">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-6">
-            <div class="top_nav_left">Training + Placement = Success</div>
-          </div>
-          <div class="col-md-6 text-right">
-            <div class="top_nav_right">
-              <ul class="top_nav_menu">
-                <!-- Currency / Language / My Account -->
-
-                <li class="currency">
-                  <a href="#">
-                    Call Us +91 86558 88104 / 99424 87031
-                    <!-- <i class="fa fa-angle-down"></i> -->
-                  </a>
-                  <!-- <ul class="currency_selection">
-                    <li><a href="#">cad</a></li>
-                    <li><a href="#">aud</a></li>
-                    <li><a href="#">eur</a></li>
-                    <li><a href="#">gbp</a></li>
-                  </ul> -->
-                </li>
-                <!-- <li class="language">
-                  <a href="#">
-                    English
-                    <i class="fa fa-angle-down"></i>
-                  </a>
-                  <ul class="language_selection">
-                    <li><a href="#">French</a></li>
-                    <li><a href="#">Italian</a></li>
-                    <li><a href="#">German</a></li>
-                    <li><a href="#">Spanish</a></li>
-                  </ul>
-                </li> -->
-                <li class="account">
-                  <a href="#">
-                    My Account
-                    <i class="fa fa-angle-down"></i>
-                  </a>
-                  <ul class="account_selection">
-                    <li>
-                      <a href="#"
-                        ><i class="fa fa-sign-in" aria-hidden="true"></i>Sign
-                        In</a
-                      >
-                    </li>
-                    <li>
-                      <a href="#"
-                        ><i class="fa fa-user-plus" aria-hidden="true"></i
-                        >Register</a
-                      >
-                    </li>
-                  </ul>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- Main Navigation -->
-
-    <div class="main_nav_container">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-12 text-right">
-            <div class="logo_container">
-              <a href="#">Githiyon <span>Consultancy</span></a>
-            </div>
-            <nav class="navbar">
-              <ul class="navbar_menu">
-                <li><a href="#">home</a></li>
-                <li><a href="#">Courses</a></li>
-                <li><a href="#">Testimonials</a></li>
-                <!-- <li><a href="#">pages</a></li>
-                <li><a href="#">blog</a></li> -->
-                <li><a href="#">contact</a></li>
-              </ul>
-              <ul class="navbar_user">
-                <li>
-                  <a href="#"
-                    ><i class="fa fa-search" aria-hidden="true"></i
-                  ></a>
-                </li>
-                <li>
-                  <a href="#"><i class="fa fa-user" aria-hidden="true"></i></a>
-                </li>
-                <li class="checkout">
-                  <a href="#">
-                    <i class="fa fa-shopping-cart" aria-hidden="true"></i>
-                    <span id="checkout_items" class="checkout_items">2</span>
-                  </a>
-                </li>
-              </ul>
-              <div class="hamburger_container">
-                <i class="fa fa-bars" aria-hidden="true"></i>
-              </div>
-            </nav>
-          </div>
-        </div>
-      </div>
-    </div>
-  </header>
-
-  <div class="fs_menu_overlay"></div>
-  <div class="hamburger_menu">
-    <div class="hamburger_close">
-      <i class="fa fa-times" aria-hidden="true"></i>
-    </div>
-    <div class="hamburger_menu_content text-right">
-      <ul class="menu_top_nav">
-        <li class="menu_item has-children">
-          <a href="#">
-            Call Us +91 9786961541 / 8655888104
-            <!-- <i class="fa fa-angle-down"></i> -->
-          </a>
-          <!-- <ul class="menu_selection">
-            <li><a href="#">cad</a></li>
-            <li><a href="#">aud</a></li>
-            <li><a href="#">eur</a></li>
-            <li><a href="#">gbp</a></li>
-          </ul> -->
-        </li>
-        <!-- <li class="menu_item has-children">
-          <a href="#">
-            English
-            <i class="fa fa-angle-down"></i>
-          </a>
-          <ul class="menu_selection">
-            <li><a href="#">French</a></li>
-            <li><a href="#">Italian</a></li>
-            <li><a href="#">German</a></li>
-            <li><a href="#">Spanish</a></li>
-          </ul>
-        </li> -->
-        <li class="menu_item has-children">
-          <a href="#">
-            My Account
-            <i class="fa fa-angle-down"></i>
-          </a>
-          <ul class="menu_selection">
-            <li>
-              <a href="#"
-                ><i class="fa fa-sign-in" aria-hidden="true"></i>Sign In</a
-              >
-            </li>
-            <li>
-              <a href="#"
-                ><i class="fa fa-user-plus" aria-hidden="true"></i>Register</a
-              >
-            </li>
-          </ul>
-        </li>
-        <li class="menu_item"><a href="#">home</a></li>
-        <li class="menu_item"><a href="#">Courses</a></li>
-        <li class="menu_item"><a href="#">Testimonials</a></li>
-        <!-- <li class="menu_item"><a href="#">pages</a></li>
-        <li class="menu_item"><a href="#">blog</a></li> -->
-        <li class="menu_item"><a href="#">contact</a></li>
-      </ul>
-    </div>
-  </div>
-
-  <!-- Slider -->
-
-  <div
-    class="main_slider"
-    style="background-image: url(assets/images/top_banner.jpg)"
-  >
-    <div class="container fill_height">
-      <div class="row align-items-center fill_height">
-        <div class="col">
-          <div class="main_slider_content">
-            <h6 style="color: #ffffff !important">Latest Courses 2023</h6>
-            <h1 style="color: #ffffff !important">
-              Get up to 30% Off New Courses
-            </h1>
-            <div class="red_button shop_now_button">
-              <a href="#" style="color: #ffffff !important">Enroll Now</a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <!-- Banner -->
-
-  <!-- <div class="banner">
+<!-- <div class="banner">
     <div class="container">
       <div class="row">
         <div class="col-md-4">
@@ -231,9 +45,9 @@
     </div>
   </div> -->
 
-  <!-- New Arrivals -->
+<!-- New Arrivals -->
 
-  <!-- <div class="new_arrivals">
+<!-- <div class="new_arrivals">
     <div class="container">
       <div class="row">
         <div class="col text-center">
@@ -512,9 +326,9 @@
     </div>
   </div> -->
 
-  <!-- Deal of the week -->
+<!-- Deal of the week -->
 
-  <!-- <div class="deal_ofthe_week">
+<!-- <div class="deal_ofthe_week">
     <div class="container">
       <div class="row align-items-center">
         <div class="col-lg-6">
@@ -539,9 +353,9 @@
     </div>
   </div> -->
 
-  <!-- Best Sellers -->
+<!-- Best Sellers -->
 
-  <!-- <div class="best_sellers">
+<!-- <div class="best_sellers">
     <div class="container">
       <div class="row">
         <div class="col text-center">
@@ -550,13 +364,13 @@
           </div>
         </div>
       </div> -->
-  <!-- <div class="row">
+<!-- <div class="row">
         <div class="col">
           <div class="product_slider_container">
             <div class="owl-carousel owl-theme product_slider"> -->
-  <!-- Slide 1 -->
+<!-- Slide 1 -->
 
-  <!-- <div class="owl-item product_slider_item">
+<!-- <div class="owl-item product_slider_item">
                 <div class="product-item">
                   <div class="product discount">
                     <div class="product_image">
@@ -582,9 +396,9 @@
                 </div>
               </div> -->
 
-  <!-- Slide 2 -->
+<!-- Slide 2 -->
 
-  <!-- <div class="owl-item product_slider_item">
+<!-- <div class="owl-item product_slider_item">
                 <div class="product-item women">
                   <div class="product">
                     <div class="product_image">
@@ -608,8 +422,8 @@
                 </div>
               </div> -->
 
-  <!-- Slide 3 -->
-  <!-- 
+<!-- Slide 3 -->
+<!-- 
               <div class="owl-item product_slider_item">
                 <div class="product-item women">
                   <div class="product">
@@ -629,9 +443,9 @@
                 </div>
               </div> -->
 
-  <!-- Slide 4 -->
+<!-- Slide 4 -->
 
-  <!-- <div class="owl-item product_slider_item">
+<!-- <div class="owl-item product_slider_item">
                 <div class="product-item accessories">
                   <div class="product">
                     <div class="product_image">
@@ -655,9 +469,9 @@
                 </div>
               </div> -->
 
-  <!-- Slide 5 -->
+<!-- Slide 5 -->
 
-  <!-- <div class="owl-item product_slider_item">
+<!-- <div class="owl-item product_slider_item">
                 <div class="product-item women men">
                   <div class="product">
                     <div class="product_image">
@@ -674,9 +488,9 @@
                 </div>
               </div> -->
 
-  <!-- Slide 6 -->
+<!-- Slide 6 -->
 
-  <!-- <div class="owl-item product_slider_item">
+<!-- <div class="owl-item product_slider_item">
                 <div class="product-item accessories">
                   <div class="product discount">
                     <div class="product_image">
@@ -702,9 +516,9 @@
                 </div>
               </div> -->
 
-  <!-- Slide 7 -->
+<!-- Slide 7 -->
 
-  <!-- <div class="owl-item product_slider_item">
+<!-- <div class="owl-item product_slider_item">
                 <div class="product-item women">
                   <div class="product">
                     <div class="product_image">
@@ -723,9 +537,9 @@
                 </div>
               </div> -->
 
-  <!-- Slide 8 -->
+<!-- Slide 8 -->
 
-  <!-- <div class="owl-item product_slider_item">
+<!-- <div class="owl-item product_slider_item">
                 <div class="product-item accessories">
                   <div class="product">
                     <div class="product_image">
@@ -744,9 +558,9 @@
                 </div>
               </div> -->
 
-  <!-- Slide 9 -->
+<!-- Slide 9 -->
 
-  <!-- <div class="owl-item product_slider_item">
+<!-- <div class="owl-item product_slider_item">
                 <div class="product-item men">
                   <div class="product">
                     <div class="product_image">
@@ -770,8 +584,8 @@
                 </div>
               </div> -->
 
-  <!-- Slide 10 -->
-  <!-- 
+<!-- Slide 10 -->
+<!-- 
               <div class="owl-item product_slider_item">
                 <div class="product-item men">
                   <div class="product">
@@ -790,9 +604,9 @@
               </div>
             </div> -->
 
-  <!-- Slider Navigation -->
+<!-- Slider Navigation -->
 
-  <!-- <div
+<!-- <div
               class="product_slider_nav_left product_slider_nav d-flex align-items-center justify-content-center flex-column"
             >
               <i class="fa fa-chevron-left" aria-hidden="true"></i>
@@ -802,15 +616,15 @@
             >
               <i class="fa fa-chevron-right" aria-hidden="true"></i>
             </div> -->
-  <!-- </div>
+<!-- </div>
         </div>
       </div>
     </div>
   </div> -->
 
-  <!-- Benefit -->
+<!-- Benefit -->
 
-  <!-- <div class="benefit">
+<!-- <div class="benefit">
     <div class="container">
       <div class="row benefit_row">
         <div class="col-lg-3 benefit_col">
@@ -861,117 +675,11 @@
     </div>
   </div> -->
 
-  <!-- Blogs -->
+<!-- Blogs -->
 
-  <div class="blogs">
-    <div class="container">
-      <div class="row">
-        <div class="col text-center">
-          <div class="section_title">
-            <h2>Popular Courses</h2>
-          </div>
-        </div>
-      </div>
-      <div class="row blogs_container">
-        <div class="col-lg-4 blog_item_col">
-          <div class="blog_item">
-            <div
-              class="blog_background"
-              style="background-image: url(assets/images/fullstack.jpg)"
-            ></div>
-            <div
-              class="blog_content d-flex flex-column align-items-center justify-content-center text-center"
-            >
-              <h4 class="blog_title">Learn full stack web development</h4>
-              <span class="blog_meta">Author: Sabita | dec 01, 2021</span>
-              <a class="blog_more" href="#">Enroll Now</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4 blog_item_col">
-          <div class="blog_item">
-            <div
-              class="blog_background"
-              style="background-image: url(assets/images/mongodb.jpg)"
-            ></div>
-            <div
-              class="blog_content d-flex flex-column align-items-center justify-content-center text-center"
-            >
-              <h4 class="blog_title">Mongodb</h4>
-              <span class="blog_meta">Author: Githiyon | dec 01, 2021</span>
-              <a class="blog_more" href="#">Enroll Now</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4 blog_item_col">
-          <div class="blog_item">
-            <div
-              class="blog_background"
-              style="background-image: url(assets/images/blazor.png)"
-            ></div>
-            <div
-              class="blog_content d-flex flex-column align-items-center justify-content-center text-center"
-            >
-              <h4 class="blog_title">.NET Blazor</h4>
-              <span class="blog_meta">Author: Roshni | dec 01, 2021</span>
-              <a class="blog_more" href="#">Enroll Now</a>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="row blogs_container">
-        <div class="col-lg-4 blog_item_col">
-          <div class="blog_item">
-            <div
-              class="blog_background"
-              style="background-image: url(assets/images/sql.jpg)"
-            ></div>
-            <div
-              class="blog_content d-flex flex-column align-items-center justify-content-center text-center"
-            >
-              <h4 class="blog_title">Learn SQL</h4>
-              <span class="blog_meta">Author: Sabita | dec 01, 2021</span>
-              <a class="blog_more" href="#">Enroll Now</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4 blog_item_col">
-          <div class="blog_item">
-            <div
-              class="blog_background"
-              style="background-image: url(assets/images/c.png)"
-            ></div>
-            <div
-              class="blog_content d-flex flex-column align-items-center justify-content-center text-center"
-            >
-              <h4 class="blog_title">Learn C</h4>
-              <span class="blog_meta">Author: Githiyon | dec 01, 2021</span>
-              <a class="blog_more" href="#">Enroll Now</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4 blog_item_col">
-          <div class="blog_item">
-            <div
-              class="blog_background"
-              style="background-image: url(assets/images/python.jpg)"
-            ></div>
-            <div
-              class="blog_content d-flex flex-column align-items-center justify-content-center text-center"
-            >
-              <h4 class="blog_title">Learn Python</h4>
-              <span class="blog_meta">Author: Roshni | dec 01, 2021</span>
-              <a class="blog_more" href="#">Enroll Now</a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
+<!-- Newsletter -->
 
-  <!-- Newsletter -->
-
-  <!-- <div class="newsletter">
+<!-- <div class="newsletter">
     <div class="container">
       <div class="row">
         <div class="col-lg-6">
@@ -1010,67 +718,3 @@
       </div>
     </div>
   </div> -->
-
-  <!-- Footer -->
-  <app-testimonial></app-testimonial>
-  <footer class="footer mt-6">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-6">
-          <div
-            class="footer_nav_container d-flex flex-sm-row flex-column align-items-center justify-content-lg-start justify-content-center text-center"
-          >
-            <ul class="footer_nav">
-              <li><a href="#">Blog</a></li>
-              <li><a href="#">FAQs</a></li>
-              <li><a href="#">Contact us</a></li>
-            </ul>
-          </div>
-        </div>
-        <div class="col-lg-6">
-          <div
-            class="footer_social d-flex flex-row align-items-center justify-content-lg-end justify-content-center"
-          >
-            <ul>
-              <li>
-                <a href="#"
-                  ><i class="fa fa-facebook" aria-hidden="true"></i
-                ></a>
-              </li>
-              <li>
-                <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-              </li>
-              <li>
-                <a href="#"
-                  ><i class="fa fa-instagram" aria-hidden="true"></i
-                ></a>
-              </li>
-              <li>
-                <a href="#"><i class="fa fa-skype" aria-hidden="true"></i></a>
-              </li>
-              <li>
-                <a href="#"
-                  ><i class="fa fa-pinterest" aria-hidden="true"></i
-                ></a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-lg-12">
-          <div class="footer_nav_container">
-            <div class="cr">
-              ©2023 All Rights Reserverd. Made with
-              <i class="fa fa-heart-o" aria-hidden="true"></i> by
-              <a href="#">Sabita</a> &amp; Loved by
-              <a href="https://therichpost.com"
-                >Githiyon & Sabita Consultancy</a
-              >
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </footer>
-</div>
