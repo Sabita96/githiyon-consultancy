@@ -19,7 +19,7 @@
           >
             <h4 class="blog_title">Learn full stack web development</h4>
             <span class="blog_meta">Author: Sabita | dec 01, 2021</span>
-            <a class="blog_more" href="#">Enroll Now</a>
+            <a class="blog_more" (click)="proceed()" href="javascript:void(0)">Enroll Now</a>
           </div>
         </div>
       </div>
@@ -34,7 +34,7 @@
           >
             <h4 class="blog_title">Mongodb</h4>
             <span class="blog_meta">Author: Githiyon | dec 01, 2021</span>
-            <a class="blog_more" href="#">Enroll Now</a>
+            <a class="blog_more"(click)="proceed()" href="javascript:void(0)">Enroll Now</a>
           </div>
         </div>
       </div>
@@ -49,7 +49,7 @@
           >
             <h4 class="blog_title">.NET Blazor</h4>
             <span class="blog_meta">Author: Roshni | dec 01, 2021</span>
-            <a class="blog_more" href="#">Enroll Now</a>
+            <a class="blog_more"(click)="proceed()" href="javascript:void(0)">Enroll Now</a>
           </div>
         </div>
       </div>
@@ -66,7 +66,7 @@
           >
             <h4 class="blog_title">Learn SQL</h4>
             <span class="blog_meta">Author: Sabita | dec 01, 2021</span>
-            <a class="blog_more" href="#">Enroll Now</a>
+            <a class="blog_more"(click)="proceed()" href="javascript:void(0)">Enroll Now</a>
           </div>
         </div>
       </div>
@@ -81,7 +81,7 @@
           >
             <h4 class="blog_title">Learn C</h4>
             <span class="blog_meta">Author: Githiyon | dec 01, 2021</span>
-            <a class="blog_more" href="#">Enroll Now</a>
+            <a class="blog_more"(click)="proceed()" href="javascript:void(0)">Enroll Now</a>
           </div>
         </div>
       </div>
@@ -96,9 +96,42 @@
           >
             <h4 class="blog_title">Learn Python</h4>
             <span class="blog_meta">Author: Roshni | dec 01, 2021</span>
-            <a class="blog_more" href="#">Enroll Now</a>
+            <a class="blog_more"(click)="proceed()" href="javascript:void(0)">Enroll Now</a>
           </div>
         </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal -->
+<div
+  class="modal fade"
+  id="myModal"
+  tabindex="-1"
+  aria-labelledby="exampleModalLabel"
+  aria-hidden="true"
+>
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Success</h5>
+        <button
+          type="button"
+          class="btn-close"
+          (click)="this.formModal.hide();"
+        ></button>
+      </div>
+      <div class="modal-body">
+        <h3>Payment success!!</h3>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" (click)="this.formModal.hide();">
+          OK
+        </button>
+        <!-- <button type="button" class="btn btn-primary" (click)="this.formModal.hide();">
+          Save changes
+        </button> -->
       </div>
     </div>
   </div>

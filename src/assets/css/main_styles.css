@@ -1250,6 +1250,8 @@ section {
 .section_title {
 	display: inline-block;
 	text-align: center;
+	background-color: chocolate;
+
 }
 
 .section_title h2 {
