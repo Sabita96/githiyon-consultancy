@@ -76,10 +76,10 @@
             <ul class="navbar_menu">
               <li><a href="javascript:void(0)">home</a></li>
               <li>
-                <a href="javascript:void(0)">Courses</a>
+                <a href="javascript:void(0)" (click)="navigateToSec('courses')">Courses</a>
               </li>
               <li>
-                <a href="javascript:void(0)" (click)="navigateToTestim()"
+                <a href="javascript:void(0)" (click)="navigateToSec('testimonial')"
                   >Testimonials</a
                 >
               </li>
@@ -161,9 +161,9 @@
         </ul>
       </li>
       <li class="menu_item"><a href="javascript:void(0)">home</a></li>
-      <li class="menu_item"><a href="javascript:void(0)">Courses</a></li>
+      <li class="menu_item"><a href="javascript:void(0)" (click)="navigateToSec('courses')">Courses</a></li>
       <li class="menu_item">
-        <a href="javascript:void(0)" (click)="navigateToTestim()"
+        <a href="javascript:void(0)" (click)="navigateToSec('testimonial')"
           >Testimonials</a
         >
       </li>

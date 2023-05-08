@@ -6,8 +6,8 @@ import { Component } from '@angular/core';
   styleUrls: ['./navbar.component.css'],
 })
 export class NavbarComponent {
-  navigateToTestim() {
-    const el = document.getElementsByClassName('testimonial')[0];
+  navigateToSec(className: any) {
+    const el = document.getElementsByClassName(className)[0];
     console.log(el);
 
     if (el) {

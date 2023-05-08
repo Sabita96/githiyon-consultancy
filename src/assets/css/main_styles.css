@@ -1250,7 +1250,7 @@ section {
 .section_title {
 	display: inline-block;
 	text-align: center;
-	background-color: chocolate;
+	/* background-color: chocolate; */
 
 }
 
